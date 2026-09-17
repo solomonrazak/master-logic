@@ -15,3 +15,9 @@ export interface StickerResponse{
     NIC: number;
     BROWNCARD: number;
 } 
+
+export interface ApproveStickerInput {
+  amountPaid: number;
+  transactionReference: string;
+  bankReference: string;
+}
