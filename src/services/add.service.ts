@@ -4,6 +4,6 @@ interface AddSum {
 }
 
 export const addService = (num: AddSum): number => {
-    const output = num.firstNumber + num.secondNumber   ;
+    const output = num.firstNumber + num.secondNumber;
     return output;
 }
